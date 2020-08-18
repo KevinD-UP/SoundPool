@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0223F8">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_sound54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="And his name is John Cena" />
+
+            <Button
+                android:id="@+id/button_sound22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ba dum tss" />
+
+            <Button
+                android:id="@+id/button_sound108"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Begone THOT !" />
+
+            <Button
+                android:id="@+id/button_sound45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Bruh" />
+
+            <Button
+                android:id="@+id/button_sound107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Daaaaaaammmmmnnnn" />
+
+            <Button
+                android:id="@+id/button_sound105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ding Ding Shame " />
+
+            <Button
+                android:id="@+id/button_sound34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Directed by Robert B. Weide" />
+
+            <Button
+                android:id="@+id/button_sound36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Do it, just do it" />
+
+            <Button
+                android:id="@+id/button_sound21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="FBI open up" />
+
+            <Button
+                android:id="@+id/button_sound61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Hee Hee" />
+
+            <Button
+                android:id="@+id/button_sound12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Hehe Boi" />
+
+            <Button
+                android:id="@+id/button_sound19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="It is wednesday my dudes." />
+
+            <Button
+                android:id="@+id/button_sound98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="It's raping time" />
+
+            <Button
+                android:id="@+id/button_sound84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Jojo To be continued" />
+
+            <Button
+                android:id="@+id/button_sound82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Le lion est mort ce soir" />
+
+            <Button
+                android:id="@+id/button_sound32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Mission Failed" />
+
+            <Button
+                android:id="@+id/button_sound7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/Nani" />
+
+            <Button
+                android:id="@+id/button_sound43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="OOHHHH !!!!" />
+
+            <Button
+                android:id="@+id/button_sound52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="OH HELL NAAAWWW" />
+
+            <Button
+                android:id="@+id/button_sound51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="OOOHHH MY GAWD !!" />
+
+            <Button
+                android:id="@+id/button_sound58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ok Boomer" />
+
+            <Button
+                android:id="@+id/button_sound56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="RKO outta nowhere" />
+
+            <Button
+                android:id="@+id/button_sound62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Sad trombone" />
+
+            <Button
+                android:id="@+id/button_sound55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Sad violin" />
+
+            <Button
+                android:id="@+id/button_sound9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Stonks" />
+
+            <Button
+                android:id="@+id/button_sound4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/succ" />
+
+            <Button
+                android:id="@+id/button_sound104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="We got him " />
+
+            <Button
+                android:id="@+id/button_sound83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="We'll be right back" />
+
+            <Button
+                android:id="@+id/button_sound31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Why are u running ?!" />
+
+            <Button
+                android:id="@+id/button_sound47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Wow" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+
+</merge>

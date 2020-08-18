@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#212726">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_sound1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/hello_there" />
+
+            <Button
+                android:id="@+id/button_sound10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="It's treason then... OUAAAARRGHHHH" />
+
+            <Button
+                android:id="@+id/button_sound6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/the_dark_side_of_the_force" />
+
+            <Button
+                android:id="@+id/button_sound16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="The full power of the dark side" />
+
+            <Button
+                android:id="@+id/button_sound100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="The High Ground" />
+
+            <Button
+                android:id="@+id/button_sound11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Unlimited Power !!!" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</merge>

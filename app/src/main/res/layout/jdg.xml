@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_sound112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="C'est pas moi qui ait choisi les ténèbres" />
+
+            <Button
+                android:id="@+id/button_sound76"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Dans vot' gueule les pauvres" />
+
+            <Button
+                android:id="@+id/button_sound63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="David Goodenough" />
+
+            <Button
+                android:id="@+id/button_sound116"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Il est où ton kiki ( ͡° ͜ʖ ͡°)" />
+
+            <Button
+                android:id="@+id/button_sound114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Incroyable du cul" />
+
+            <Button
+                android:id="@+id/button_sound117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Je déteste les blacks..." />
+
+            <Button
+                android:id="@+id/button_sound81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="La blague est valide" />
+
+            <Button
+                android:id="@+id/button_sound118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="La clé qui répare les plages" />
+
+            <Button
+                android:id="@+id/button_sound80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="La folie des hommes" />
+
+            <Button
+                android:id="@+id/button_sound119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Luke, dit lui qu'elle est bonne" />
+
+            <Button
+                android:id="@+id/button_sound75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Mais oui putain !" />
+
+            <Button
+                android:id="@+id/button_sound78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Parce que t'es con !" />
+
+            <Button
+                android:id="@+id/button_sound79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Pouarfait !" />
+
+            <Button
+                android:id="@+id/button_sound113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Silence" />
+
+            <Button
+                android:id="@+id/button_sound115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Tu m'as l'air d'être une vraie petite merde !" />
+
+            <Button
+                android:id="@+id/button_sound77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Tu peux fermer ta gueule stp ?" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+</merge>

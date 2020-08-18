@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="400dp"
+        android:layout_height="535dp"
+        android:background="#F44336">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button_sound38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="A few moments later" />
+
+            <Button
+                android:id="@+id/button_sound49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ha Gayyyyy!!" />
+
+            <Button
+                android:id="@+id/button_sound37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="NO GOD, PLEASE NO !!" />
+
+            <Button
+                android:id="@+id/button_sound46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Oh hell no !" />
+
+            <Button
+                android:id="@+id/button_sound40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Oh hi Mark" />
+
+            <Button
+                android:id="@+id/button_sound64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="One eternity later" />
+
+            <Button
+                android:id="@+id/button_sound65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ou tu sors ou j'te sors" />
+
+            <Button
+                android:id="@+id/button_sound35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Surprise motherfucker" />
+
+            <Button
+                android:id="@+id/button_sound44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Titanic Flute fail" />
+
+            <Button
+                android:id="@+id/button_sound39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Two hours later" />
+
+            <Button
+                android:id="@+id/button_sound42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Wilhelm scream" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</merge>

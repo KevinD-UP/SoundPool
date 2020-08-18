@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.kevin.soundpool.MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#324090"
+                android:fontFamily="sans-serif"
+                android:text="Personnel"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+
+            <include layout="@layout/personnel" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFC107"
+                android:text="Joueur du grenier"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/jdg" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#55792A"
+                android:text="Mister V"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/misterv" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#009688"
+                android:text="Meme français"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/memefrancais" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4D4A4A"
+                android:text="Star Wars"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/starwars" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#04168B"
+                android:text="Meme international"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/memeinter" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C1441C"
+                android:text="Jeux vidéo"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/jeux" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#B2184C"
+                android:text="Musique"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/musique" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#673AB7"
+                android:text="Meme anime"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/memeanime" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#BE352B"
+                android:text="Meme film"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <include layout="@layout/memefilm" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

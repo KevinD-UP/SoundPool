@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_sound120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ah ouais, ouais, ouais" />
+
+            <Button
+                android:id="@+id/button_sound121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ah oui, oui, oui, oui, oui" />
+
+            <Button
+                android:id="@+id/button_sound17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="AH !" />
+
+            <Button
+                android:id="@+id/button_sound102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Alerte au gogole !" />
+
+            <Button
+                android:id="@+id/button_sound13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="C'est Honteux !!" />
+
+            <Button
+                android:id="@+id/button_sound106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="C'est la décadenceuh  " />
+
+            <Button
+                android:id="@+id/button_sound74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="C'est pas toi qui décide !" />
+
+            <Button
+                android:id="@+id/button_sound111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="C'est plus une tuerie, c'est un massacre" />
+
+            <Button
+                android:id="@+id/button_sound69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="C'était sûr en fait !!" />
+
+            <Button
+                android:id="@+id/button_sound2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/cheh" />
+
+            <Button
+                android:id="@+id/button_sound70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="CONCENTRE TOI !!!" />
+
+            <Button
+                android:id="@+id/button_sound97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Je suis pas venu ici pour souffrir" />
+
+            <Button
+                android:id="@+id/button_sound57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="M'en bas les couilles frère" />
+
+            <Button
+                android:id="@+id/button_sound73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="M'en bas les couilles (vald)" />
+
+            <Button
+                android:id="@+id/button_sound29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Mais oui c'est clair!" />
+
+            <Button
+                android:id="@+id/button_sound101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="On va casser du PD" />
+
+            <Button
+                android:id="@+id/button_sound5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/ooohhhh_puteuhhh" />
+
+            <Button
+                android:id="@+id/button_sound30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Oui c'est moi." />
+
+            <Button
+                android:id="@+id/button_sound72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="PARCE QUE C'EST NOTRE PROJET !!!" />
+
+            <Button
+                android:id="@+id/button_sound71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="SECOND POTEAU PAVARD !!" />
+
+            <Button
+                android:id="@+id/button_sound99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="T'es bien renseigné toi" />
+
+            <Button
+                android:id="@+id/button_sound33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Traditionnel musettes" />
+
+            <Button
+                android:id="@+id/button_sound122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Tu as dead ça chacal" />
+
+            <Button
+                android:id="@+id/button_sound95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Wow ! Qu'est-ce que c'est que ce truc" />
+
+            <Button
+                android:id="@+id/button_sound132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="La chatte qu'il a !!!" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</merge>

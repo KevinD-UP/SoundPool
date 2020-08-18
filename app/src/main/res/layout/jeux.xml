@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_sound28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ah shit ! Here we go again." />
+
+            <Button
+                android:id="@+id/button_sound126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Cicéron Naughty(Skyrim)" />
+
+            <Button
+                android:id="@+id/button_sound125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Cicéron Oh Yeah (Skyrim)" />
+
+            <Button
+                android:id="@+id/button_sound129"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Do it bitch" />
+
+            <Button
+                android:id="@+id/button_sound26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Falcon Punch" />
+
+            <Button
+                android:id="@+id/button_sound23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Fatality" />
+
+            <Button
+                android:id="@+id/button_sound48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Fus roh dah !" />
+
+            <Button
+                android:id="@+id/button_sound128"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Grab me touch me" />
+
+            <Button
+                android:id="@+id/button_sound130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="I haven't touch myself in days" />
+
+
+            <Button
+                android:id="@+id/button_sound41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="LEEROY JENKINS !!!" />
+
+            <Button
+                android:id="@+id/button_sound127"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="No pussy in the cloud district" />
+
+            <Button
+                android:id="@+id/button_sound123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Non (Mario)" />
+
+            <Button
+                android:id="@+id/button_sound3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/oofff" />
+
+            <Button
+                android:id="@+id/button_sound20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="OOFFF ralenti" />
+
+            <Button
+                android:id="@+id/button_sound96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="SQUALALA" />
+
+            <Button
+                android:id="@+id/button_sound131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="We'll bang ok ?" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</merge>
