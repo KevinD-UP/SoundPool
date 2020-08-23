@@ -35,6 +35,20 @@
                 android:text="It's over 9000 !!!" />
 
             <Button
+                android:id="@+id/button_sound84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Jojo To be continued" />
+
+            <Button
+                android:id="@+id/button_sound7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="@string/Nani" />
+
+            <Button
                 android:id="@+id/button_sound59"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -22,11 +22,31 @@
                 android:text="A few moments later" />
 
             <Button
+                android:id="@+id/button_sound102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Alerte au gogole !" />
+
+            <Button
+                android:id="@+id/button_sound105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Ding Ding Shame " />
+
+            <Button
                 android:id="@+id/button_sound49"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="playSound"
                 android:text="Ha Gayyyyy!!" />
+            <Button
+                android:id="@+id/button_sound82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="playSound"
+                android:text="Le lion est mort ce soir" />
 
             <Button
                 android:id="@+id/button_sound37"

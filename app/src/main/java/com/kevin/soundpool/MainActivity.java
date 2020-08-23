@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             ,sound69, sound70, sound71,sound72, sound73, sound74, sound75, sound76, sound77, sound78, sound79, sound80, sound81, sound82, sound83, sound84, sound85, sound86
             ,sound87, sound88, sound89, sound90, sound91, sound92, sound93, sound94, sound95, sound96, sound97, sound98, sound99, sound100, sound101, sound102, sound103, sound104
             ,sound105, sound106, sound107, sound108,sound109, sound110, sound111,sound112,sound113, sound114,sound115,sound116,sound117,sound118,sound119,sound120, sound121, sound122
-            ,sound123, sound124, sound125, sound126, sound127, sound128, sound129,sound130, sound131, sound132;
+            ,sound123, sound124, sound125, sound126, sound127, sound128, sound129,sound130, sound131, sound132, sound133, sound134;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             AudioAttributes audioAttributes = new AudioAttributes.Builder()
-                    .setUsage(AudioAttributes.USAGE_ASSISTANCE_SONIFICATION)
+                    .setUsage(AudioAttributes.USAGE_GAME)
                     .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
                     .build();
             soundPool = new SoundPool.Builder()
@@ -167,7 +167,8 @@ public class MainActivity extends AppCompatActivity {
         sound130 = soundPool.load(this, R.raw.sound130, 1);
         sound131 = soundPool.load(this, R.raw.sound131, 1);
         sound132 = soundPool.load(this, R.raw.sound132, 1);
-
+        sound133 = soundPool.load(this, R.raw.sound133, 1);
+        sound134 = soundPool.load(this, R.raw.sound134, 1);
     }
     public void playSound(View v) {
         switch (v.getId()) {
@@ -566,7 +567,13 @@ public class MainActivity extends AppCompatActivity {
                 soundPool.play(sound131, 1, 1, 0, 0, 1);
                 break;
             case R.id.button_sound132:
-                soundPool.play(sound131, 1, 1, 0, 0, 1);
+                soundPool.play(sound132, 1, 1, 0, 0, 1);
+                break;
+            case R.id.button_sound133:
+                soundPool.play(sound133, 1, 1, 0, 0, 1);
+                break;
+            case R.id.button_sound134:
+                soundPool.play(sound134, 1, 1, 0, 0, 1);
                 break;
         }
     }

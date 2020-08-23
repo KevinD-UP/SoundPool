@@ -49,13 +49,6 @@
                 android:text="Daaaaaaammmmmnnnn" />
 
             <Button
-                android:id="@+id/button_sound105"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="playSound"
-                android:text="Ding Ding Shame " />
-
-            <Button
                 android:id="@+id/button_sound34"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -105,32 +98,13 @@
                 android:text="It's raping time" />
 
             <Button
-                android:id="@+id/button_sound84"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="playSound"
-                android:text="Jojo To be continued" />
-
-            <Button
-                android:id="@+id/button_sound82"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="playSound"
-                android:text="Le lion est mort ce soir" />
-
-            <Button
                 android:id="@+id/button_sound32"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="playSound"
                 android:text="Mission Failed" />
 
-            <Button
-                android:id="@+id/button_sound7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="playSound"
-                android:text="@string/Nani" />
+
 
             <Button
                 android:id="@+id/button_sound43"
