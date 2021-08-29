@@ -17,19 +17,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#324090"
-                android:fontFamily="sans-serif"
-                android:text="Personnel"
-                android:textColor="#FFFFFF"
-                android:textSize="30sp" />
-
-
-            <include layout="@layout/personnel" />
-
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

@@ -10,7 +10,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     private SoundPool soundPool;
-    private int sound1, sound2, sound3, sound4, sound5, sound6, sound7, sound8, sound9, sound10, sound11, sound12, sound13, sound14, sound15, sound16, sound17
+    private int sound8, sound9, sound10, sound11, sound12, sound13, sound14, sound15, sound16, sound17
             ,sound18, sound19, sound20, sound21, sound22, sound23, sound24, sound25, sound26, sound27, sound28, sound29, sound30, sound31, sound32, sound33
             ,sound34,sound35,sound36,sound37,sound38,sound39,sound40,sound41,sound42,sound43,sound44,sound45,sound46,sound47,sound48,sound49,sound50,sound51
             ,sound52,sound53,sound54,sound55,sound56,sound57,sound58, sound59, sound60, sound61, sound62, sound63, sound64, sound65, sound66, sound67, sound68
@@ -35,13 +35,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             soundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
         }
-        sound1  = soundPool.load(this, R.raw.sound1, 1);
-        sound2  = soundPool.load(this, R.raw.sound2, 1);
-        sound3  = soundPool.load(this, R.raw.sound3, 1);
-        sound4  = soundPool.load(this, R.raw.sound4, 1);
-        sound5  = soundPool.load(this, R.raw.sound5, 1);
-        sound6  = soundPool.load(this, R.raw.sound6, 1);
-        sound7  = soundPool.load(this, R.raw.sound7, 1);
         sound8  = soundPool.load(this, R.raw.sound8, 1);
         sound9  = soundPool.load(this, R.raw.sound9, 1);
         sound10 = soundPool.load(this, R.raw.sound10, 1);
@@ -172,28 +165,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public void playSound(View v) {
         switch (v.getId()) {
-            case R.id.button_sound1:
-                soundPool.play(sound1, 1, 1, 0, 0, 1);
-                //soundPool.pause(sound3StreamId);
-                break;
-            case R.id.button_sound2:
-                soundPool.play(sound2, 1, 1, 0, 0, 1);
-                break;
-            case R.id.button_sound3:
-                soundPool.play(sound3, 1, 1, 0, 0, 1);
-                break;
-            case R.id.button_sound4:
-                soundPool.play(sound4, 1, 1, 0, 0, 1);
-                break;
-            case R.id.button_sound5:
-                soundPool.play(sound5, 1, 1, 0, 0, 1);
-                break;
-            case R.id.button_sound6:
-                soundPool.play(sound6, 1, 1, 0, 0, 1);
-                break;
-            case R.id.button_sound7:
-                soundPool.play(sound7, 1, 1, 0, 0, 1);
-                break;
             case R.id.button_sound8:
                 soundPool.play(sound8, 1, 1, 0, 0, 1);
                 break;
